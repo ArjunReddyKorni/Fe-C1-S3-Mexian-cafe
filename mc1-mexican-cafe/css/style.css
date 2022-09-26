@@ -1,1 +1,48 @@
 /* Write CSS code here */
+body{
+    background-color: #ecd7d2;
+}
+button{
+    background-color: #451207;
+    color: yellow;
+    margin-left: 90px;
+    padding: 4px 19px 4px 19px ;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#imgTaco{
+    float: left;
+    margin: 10px;
+   position: static;
+}
+section{
+    display: flex;
+    margin-top: 43px;
+}
+footer{
+    display: flex;
+    margin-top: 50px;
+}
+#img1{
+    margin: 20px;
+    background-color: #451207;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}#img2{
+    margin-right: 50px;
+}
+.child{
+    position: absolute;
+    color: yellow;
+    top: 90px;
+    left: 50px;  
+}
+.flex1{
+    border-radius: 50%;
+    padding: 5px -5px 0px 5px;
+}
+.disc{
+    color: yellow;
+}
